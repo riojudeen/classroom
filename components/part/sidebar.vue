@@ -30,7 +30,9 @@
                 
             </ul>
             </li>
-           
+           <li class="active">
+                <nuxt-link :to="menu2.to" class="nav-link" ><i :class="menu2.icon"></i> <span>{{menu2.name}}</span></nuxt-link> 
+            </li>
         </ul>
     </aside>
     </div>
@@ -42,6 +44,11 @@ export default {
             menu1 : {
                 name : "Semua Kelas",
                 to : "/class",
+                icon : "far fa-square",
+            },
+            menu2 : {
+                name : "Open Library",
+                to : "/libs",
                 icon : "far fa-square",
             },
             daftarmenu : [

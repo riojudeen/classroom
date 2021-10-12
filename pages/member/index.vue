@@ -2,84 +2,24 @@
     <div>
         <div class="card">
             <div class="card-header">
-                <h4>Anggota</h4>
+                <h4 style="font-size:27px">Anggota</h4>
+                <div class="card-header-action">
+                
+                    <div class="btn-group dropleft">
+                        <button type="button" class="btn bg-transparent text-primary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-ellipsis-v"></i>
+                        </button>
+                        <div class="dropdown-menu dropleft">
+                            <nuxt-link to="add" class="dropdown-item" ><i class="fas fa-plus"></i> Add</nuxt-link>
+                            <a class="dropdown-item" href="#"><i class="far fa-edit"></i> Edit</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#"><i class="far fa-trash-alt"></i> Delete</a>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="card-body">
-                <h5>Supervisor</h5>
-                <div class="table">
-                    <table class="table table-bordered">
-                        <thead>
-                            <th>#</th>
-                            <th>Foto</th>
-                            <th>Nama</th>
-                            <th>action</th>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td>img</td>
-                                <td>Rio Setiawan Judin</td>
-                                <td>btn</td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>img</td>
-                                <td>Rio Setiawan Judin</td>
-                                <td>btn</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <h5>Trainer</h5>
-                <div class="table">
-                    <table class="table table-bordered">
-                        <thead>
-                            <th>#</th>
-                            <th>Foto</th>
-                            <th>Nama</th>
-                            <th>action</th>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td>img</td>
-                                <td>Rio Setiawan Judin</td>
-                                <td>btn</td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>img</td>
-                                <td>Rio Setiawan Judin</td>
-                                <td>btn</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <h5>Anggota</h5>
-                <div class="table">
-                    <table class="table table-bordered">
-                        <thead>
-                            <th>#</th>
-                            <th>Foto</th>
-                            <th>Nama</th>
-                            <th>action</th>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td>img</td>
-                                <td>Rio Setiawan Judin</td>
-                                <td>btn</td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>img</td>
-                                <td>Rio Setiawan Judin</td>
-                                <td>btn</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+                <class-members />
             </div>
         </div>
     </div>
